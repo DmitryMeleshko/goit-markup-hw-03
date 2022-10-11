@@ -33,16 +33,17 @@ body{
     list-style: none;
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 
 }
 .buttom-item+.buttom-item{
     margin-left: 8px;
 }
 .project-vue{
-    width: 370px;
+    border: 1px #EEEEEE;
     margin-right: 30px;
     margin-bottom: 30px;
+    background-color: #ffffff;
 }
 .project-vue:nth-child(3n){
     margin-right: 0px;
@@ -68,9 +69,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    border-bottom: 1px #ECECEC;
 }
 .button {
-    padding: 6px, 25px;
+    padding: 6px 25px;
     font-family: 'Roboto', sans-serif;
     color:var(--color-primary);
     background-color: #F5F4FA;
@@ -95,6 +97,10 @@ body{
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     cursor:pointer;
     letter-spacing: 0.03em;
+}
+.project-description{
+    width: 322px;
+    padding: 20px 24px;
 }
 .content{
     margin: auto;
@@ -170,7 +176,7 @@ body{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
-    line-height: 2.0;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     letter-spacing: 0.03em;
 }
@@ -263,7 +269,7 @@ body{
     text-transform: uppercase;
 }
 .studio-button{
-    padding: 10px, 35px;
+    padding: 10px 35px;
     display: flex;
     margin: auto;
     justify-content: center;
@@ -300,6 +306,7 @@ body{
     color: #757575;
     font-weight: 400;
     font-size: 14px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 }
 .direction{
@@ -313,6 +320,7 @@ body{
 .direction-list{
     display: flex;
     list-style: none;
+    padding-bottom: 95px;
 }
 .direction-list .item{
     flex-basis: 370px;
@@ -320,13 +328,21 @@ body{
 .direction-content .item+.item{
     margin-left: 30px;
 }
-.comand-list{
+.section-name{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.15;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-bottom: 95px;
+    margin-bottom: 50px;
+}
+.comand-list{
+    display: flex;
+    list-style: none;
+}
+.position-description{
+    width: 270px;
+    padding: 30px 70px;
 }
 .comand-item{
     margin-right: 30px;
@@ -335,11 +351,8 @@ body{
 .comand-item:last-child{
     margin-right: 0px;
 }
-.list .item+.item{
+.comand-list .item+.item{
     margin-left: 30px;
-}
-.photo{
-    margin-bottom: 30px;
 }
 .content{
     padding-top: 95px;
@@ -359,7 +372,6 @@ body{
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    padding-bottom: 30px;
 }
 .specialists{
     padding-top: 95px;
