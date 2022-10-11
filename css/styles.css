@@ -1,6 +1,4 @@
-html{
-    box-sizing: border-box;
-}
+
 *,
 *::before,
 *::after{
@@ -29,6 +27,7 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
+
 .button-list{
     list-style: none;
     display: flex;
@@ -51,9 +50,6 @@ body{
 .project-vue:nth-last-child(-n+3){
     margin-bottom: 0px;
 }
-.img-project{
-    margin-bottom: 20px;
-}
 .container{
     margin-left: auto;
     margin-right: auto;
@@ -65,11 +61,13 @@ body{
     margin: 0px;
     padding: 0px;
 }
+.navigation{   
+    border-bottom: 2px #000000;
+}
 .main-nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: 1px #ECECEC;
 }
 .button {
     padding: 6px 25px;
@@ -99,16 +97,15 @@ body{
     letter-spacing: 0.03em;
 }
 .project-description{
-    width: 322px;
+    border: 1px #EEEEEE;
     padding: 20px 24px;
 }
 .content{
     margin: auto;
-    background-color: #F5F5F5
 }
 .direction-content{
+    padding-bottom: 95px;
     background-color: #F5F5F5
-
 }
 .content .item+.item{
     margin-left: 30px;
@@ -258,8 +255,8 @@ body{
 }
 .hero-phrase{
     width: 700px;
-    margin-bottom: 40px;
     margin: auto;
+    margin-bottom: 40px;
     color: #ffffff;
     font-weight: 900;
     font-size: 44px;
@@ -284,7 +281,6 @@ body{
 }
 .content-list{
     margin: 0px;
-    padding: 15px;
     list-style: none;
     display: flex;
     justify-content: center;
@@ -320,7 +316,6 @@ body{
 .direction-list{
     display: flex;
     list-style: none;
-    padding-bottom: 95px;
 }
 .direction-list .item{
     flex-basis: 370px;
@@ -342,7 +337,8 @@ body{
 }
 .position-description{
     width: 270px;
-    padding: 30px 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .comand-item{
     margin-right: 30px;
@@ -357,7 +353,6 @@ body{
 .content{
     padding-top: 95px;
     padding-bottom: 95px;
-    background-color: #f5f5f5;
 }
 .specialist-name{
     margin-bottom: 10px;
